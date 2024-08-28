@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.listItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.del-btn {
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ff0b37;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .del-btn {
+    font-size: 18px;
+  }
+}
+
+.todo-list-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checked {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.strick {
+  text-decoration: line-through;
+}
